@@ -1,0 +1,57 @@
+**Mp3 file playlist maker**
+
+About
+_____
+
+It is simple code that makes the playlist of mp3 files according to the first character of the filename and groups them into files. It uses the code from the mp3finder program.
+Operating system
+________________
+
+The program runs on unix-like OS.
+
+Compiling and running
+_____________________
+
+The code for the mp3 playlist maker can be compiled using the GNU compiler like:-
+
+g++ "src_file_name.cpp"
+-----------------------
+And can be run using:-
+
+./a.out
+-------
+
+Using the program
+_________________
+
+The user is prompted to enter the directory from which to start finding the mp3 files and then the found mp3 files and grouped into files according to the first character of the filename. If failed to open the directory, it shows an error.
+
+For example, if the program find files such as:
+a.mp3
+b.mp3
+c.mp3
+.
+.
+ 
+All the songs having the begining letter 'a' will be grouped into a file called "a-list", songs starting with letter 'b' will be grouped into a file called "b-list" and so on.
+
+
+License
+_______
+
+It contains MIT license, for details see the License.txt
+
+
+About the author
+________________
+
+Name:- Vivek Singh Rathore
+Email:-vivek.40-cse-16@mietjammu.in
+
+
+
+
+
+
+
+
